@@ -13,9 +13,8 @@ describe('Inicialización', function() {
   })
 
   it('debería ser igual a la definida', function() {
-    expect(app.name).to.equal("TFG Libre ETSIIT-UGR");
+    expect(app.name).to.equal("TFG Gestión de Peñas");
   })
 
 
 })
-

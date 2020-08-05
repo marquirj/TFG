@@ -1,10 +1,9 @@
 # Trabajo de Fin de Grado: *Título*
 
-**Este sería el README de tu proyecto. Consulta las [instrucciones de
-instalación](INSTALL.md)
 
-### Autor(a): Nombre
-### Tutor(a)(es): Nombre(s)
+
+### Autor(a): Juan Antonio Martín Quirós
+### Tutor(a)(es): Juan Julián Merelo Guervós
 ___
 
 La documentación de este proyecto está realizada con `LaTeX`, por lo
@@ -20,12 +19,7 @@ $ pdflatex proyecto.tex
 Seguido por
 
     bibtex proyecto
-    
+
 y de nuevo
 
     pdflatex proyecto.tex
-
-
-# INSTRUCCIONES
-
-Lee [INSTALL.md](INSTALL.md) para las instrucciones de uso.

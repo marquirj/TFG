@@ -25,5 +25,4 @@ class Jugador {
     set puntuacion(punt){
         this.puntuacion = punt;
     }
-
 }

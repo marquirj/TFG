@@ -2,7 +2,7 @@
   "name": "TFG-plantilla",
   "version": "0.0.1",
   "description": "Plantilla para un TFG",
-  "main": "index.js",
+  "main": "app.js",
   "license": "GPL-3.0",
   "directories": {
     "doc": "doc",
@@ -18,7 +18,7 @@
     "mocha": "^5.1.1"
   },
   "devDependencies": {
-    "chai": "^4.2.0"
+    "jest" :"^26.6.0"
   },
   "repository": {
     "type": "git",

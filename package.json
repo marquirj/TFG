@@ -1,24 +1,31 @@
 {
-  "name": "TFG-plantilla",
+  "name": "TFG",
   "version": "0.0.1",
   "description": "Plantilla para un TFG",
   "main": "app.js",
   "license": "GPL-3.0",
   "directories": {
     "doc": "doc",
-    "test": "test"
+    "__tests_": "__tests__",
+    "src": "src"
   },
   "scripts": {
     "start": "node_index",
     "dev": "nodemon index",
-    "test": "mocha test/test_app.js --exit"
+    "tests": "jest --env=node"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "mocha": "^5.1.1"
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babelify": "^8.0.0",
+    "browserify": "^17.0.0",
+    "express": "^4.17.1"
   },
   "devDependencies": {
-    "jest" :"^26.6.0"
+    "@babel/core": "^7.12.1",
+    "@babel/node": "^7.12.1",
+    "babel-preset-jest": "^26.5.0",
+    "jest": "^26.5.3"
   },
   "repository": {
     "type": "git",

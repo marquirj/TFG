@@ -6,23 +6,28 @@ class Jugador {
         this.puntuacion = puntuacion;
     }
 
-    get nombre(){
+
+    getId() {
+        return this.id;
+    }
+    getNombre(){
         return this.nombre;
     }
-    get posicion(){
+    getPosicion(){
         return this.posicion;
     }
-    get puntuacion(){
+    getPuntuacion(){
         return this.puntuacion;
     }
 
-    set nombre(nombre){
+    setNombre(nombre){
         this.nombre = nombre;
     }
-    set posicion(pos){
+    setPosicion(pos){
         this.posicion = pos;
     }
-    set puntuacion(punt){
+    setPuntuacion(punt){
         this.puntuacion = punt;
     }
 }
+module.exports = Jugador;

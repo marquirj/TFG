@@ -24,3 +24,22 @@ describe('Test Puntuación Jugador',() => {
     expect(jugador_nuevo.getPuntuacion()).toBe(0);
   }); 
 });
+
+describe('Test Cambio Nombre Jugador', () => {
+  test('Asignar nombre', () => {
+    jugador_nuevo.setNombre('Juan');
+    expect(jugador_nuevo.getNombre()).toBe('Juan');
+  });
+});
+describe('Test Cambio  Posicion', () => {
+  test('Asignar Posicion', () => {
+    jugador_nuevo.setPosicion('Delantero');
+    expect(jugador_nuevo.getPosicion()).toBe('Delantero');
+  });
+});
+describe('Test Cambio  Puntación', () => {
+  test('Asignar Puntación', () => {
+    jugador_nuevo.setPuntuacion(10);
+    expect(jugador_nuevo.getPuntuacion()).toBe(10);
+  });
+});

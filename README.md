@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/marquirj/TFG.svg?branch=master)](https://travis-ci.org/marquirj/TFG)
+[![Build Status](https://travis-ci.com/marquirj/TFG.svg?branch=master)](https://travis-ci.org/marquirj/TFG) [![codecov](https://codecov.io/gh/marquirj/TFG/branch/master/graph/badge.svg?token=M59813HUBH)](https://codecov.io/gh/marquirj/TFG)
 # Trabajo de Fin de Grado: *Gestión de Peñas*
 
 

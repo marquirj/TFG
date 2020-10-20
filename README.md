@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/marquirj/TFG.svg?branch=master)](https://travis-ci.org/marquirj/TFG)
 # Trabajo de Fin de Grado: *Gestión de Peñas*
 
 

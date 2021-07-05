@@ -1,8 +1,0 @@
-languaje: nodejs
-node_js:
-  -  "lts/*"
-install:
-  - npm install -g codecov
-  - npm ci
-script:
-  - npm run tests
